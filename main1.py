@@ -5,8 +5,8 @@ import os
 from datetime import datetime, timedelta
 import calendar
 
-STOCK_FILE = "stock1.xlsx"
-ORDERS_FILE = "orders1.xlsx"
+STOCK_FILE = "stock.xlsx"
+ORDERS_FILE = "orders.xlsx"
 
 
 # Ensure Excel files exist
@@ -1883,3 +1883,4 @@ if __name__ == "__main__":
     init_files()
     app = StockApp()
     app.mainloop()
+
